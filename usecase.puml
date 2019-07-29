@@ -1,0 +1,83 @@
+left to right direction
+hide stereotype
+
+'
+' Default styles
+'
+skinparam actor {
+  BackgroundColor #white
+  BorderColor #black
+  BorderThickness 1
+  FontName Arial
+  FontSize 12
+}
+skinparam arrow {
+  Color #black
+}
+skinparam rectangle {
+  BackgroundColor #white
+  BorderColor #black
+  BorderThickness 1
+  FontName Arial
+  FontSize 10
+}
+skinparam usecase {
+  BackgroundColor #white
+  BorderColor #black
+  BorderThickness 1
+  FontName Arial
+  FontSize 12
+  Shadowing false
+}
+
+'
+' Stereotypes
+'
+skinparam actor {
+  BackgroundColor<<blue>> #6AC4F2
+}
+skinparam usecase {
+  BackgroundColor<<blue>> #6AC4F2
+}
+
+skinparam actor {
+  BackgroundColor<<green>> #B5FFB3
+}
+skinparam usecase {
+  BackgroundColor<<green>> #B5FFB3
+}
+
+skinparam actor {
+  BackgroundColor<<red>> #FDB1B3
+}
+skinparam usecase {
+  BackgroundColor<<red>> #FDB1B3
+}
+
+skinparam actor {
+  BackgroundColor<<pink>> #FDB1B3
+}
+skinparam usecase {
+  BackgroundColor<<pink>> #FDB1B3
+}
+
+skinparam actor {
+  BackgroundColor<<orange>> #FDBD0A
+}
+skinparam usecase {
+  BackgroundColor<<orange>> #FDBD0A
+}
+
+skinparam actor {
+  BackgroundColor<<grey>> #E0E0E0
+}
+skinparam usecase {
+  BackgroundColor<<grey>> #E0E0E0
+}
+
+skinparam actor {
+  BackgroundColor<<purple>> #C0C2FD
+}
+skinparam usecase {
+  BackgroundColor<<purple>> #C0C2FD
+}
