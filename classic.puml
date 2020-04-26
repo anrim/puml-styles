@@ -1,0 +1,19 @@
+skinparam monochrome true
+skinparam shadowing false
+
+'Use case
+skinparam actor {
+    backgroundColor GhostWhite
+}
+skinparam usecase {
+    backgroundColor GhostWhite
+}
+
+'Component
+skinparam component {
+    backgroundColor GhostWhite
+    style uml2
+}
+skinparam interface {
+    backgroundColor GhostWhite
+}
