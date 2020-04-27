@@ -88,12 +88,14 @@ skinparam usecase {
 'Components
 skinparam component {
     backgroundColor GhostWhite
+    borderColor Black
     fontName Arial
     fontSize 12
     style uml2
 }
 skinparam interface {
     backgroundColor GhostWhite
+    borderColor Black
     fontName Arial
     fontSize 12
 }
