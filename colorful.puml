@@ -1,13 +1,6 @@
 ' Colorful PlantUML theme
 '
 ' Usage:
-'
-'
-'
-'
-'
-'
-'
 /'
 ```puml
 !includeurl https://raw.githubusercontent.com/anrim/puml-styles/master/colorful.puml
