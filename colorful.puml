@@ -1,0 +1,99 @@
+' Colorful PlantUML theme
+'
+' Usage:
+'
+'
+'
+'
+'
+'
+'
+/'
+```puml
+!includeurl https://raw.githubusercontent.com/anrim/puml-styles/master/colorful.puml
+
+frame "Use cases example" {
+  actor "Actor 1" as a1 #LightGreen
+  actor "Actor 2" as a2 #LightGrey
+  actor "Actor 3" as a3 #LightPink
+  actor "Actor 4" as a4 #LightSalmon
+  actor "Actor 5" as a5 #LightSkyBlue
+  actor "Actor 6" as a6 #LightSlateGray
+  actor "Actor 7" as a7 #Gold
+  actor "Actor 8" as a8 #LightCoral
+  actor "Actor 9" as a9 #Yellow
+  actor "Actor 10" as a10 #Peru
+
+  rectangle "System" {
+    usecase "Use case 1" as uc1 #LightGreen
+    usecase "Use case 2" as uc2 #LightGrey
+    usecase "Use case 3" as uc3 #LightPink
+    usecase "Use case 4" as uc4 #LightSalmon
+    usecase "Use case 5" as uc5 #LightSkyBlue
+    usecase "Use case 6" as uc6 #LightSlateGray
+    usecase "Use case 7" as uc7 #Gold
+    usecase "Use case 8" as uc8 #LightCoral
+    usecase "Use case 9" as uc9 #Yellow
+    usecase "Use case 10" as uc10 #Peru
+  }
+
+  a1 -- uc1
+  a2 -- uc2
+  a3 -- uc3
+  a4 -- uc4
+  a5 -- uc5
+  uc6 -- a6
+  uc7 -- a7
+  uc8 -- a8
+  uc9 -- a9
+  uc10 -- a10
+}
+```
+'/
+
+' Core elements
+left to right direction
+
+skinparam arrow {
+    color Black
+}
+
+skinparam frame {
+    fontName Arial
+    fontSize 12
+    fontStyle normal
+}
+
+skinparam rectangle {
+    fontName Arial
+    fontSize 14
+    fontStyle normal
+}
+
+'Use cases
+skinparam actor {
+    backgroundColor GhostWhite
+    borderColor Black
+    fontName Arial
+    fontSize 12
+}
+
+skinparam usecase {
+    backgroundColor GhostWhite
+    borderColor Black
+    fontName Arial
+    fontSize 12
+}
+
+'Components
+skinparam component {
+    backgroundColor GhostWhite
+    fontName Arial
+    fontSize 12
+    style uml2
+}
+skinparam interface {
+    backgroundColor GhostWhite
+    fontName Arial
+    fontSize 12
+}
